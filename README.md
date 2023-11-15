@@ -1,5 +1,5 @@
 # Printers
-Printers is a simple to use module that allows you print a pdf or a text file.
+Printers is a simple to use module that allows you print a pdf or a text file. For now, this module only work on macs.
 
 ## Installation
 ```js
