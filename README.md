@@ -3,7 +3,7 @@ Printers is a simple to use module that allows you print a pdf or a text file. F
 
 ## Installation
 ```js
-npm i @kamkam1_0/printers
+npm i printers
 ```
 
 ## How to use
@@ -11,7 +11,7 @@ npm i @kamkam1_0/printers
 ### Get the default printer
 
 ```js
-const printers = require('@kamkam1_0/printers')
+const printers = require('printers')
 const defaultPrinter = printers.getPrinter()
 /*
     Expected Output: HP....
@@ -22,7 +22,7 @@ const defaultPrinter = printers.getPrinter()
 You can give a relative or absolute path to print the file.
 
 ```js
-const printers = require('@kamkam1_0/printers')
+const printers = require('printers')
 const defaultPrinter = printers.print('/Users/JohnDoe/Desktop/test.txt')
 /*
     Expected Output: true
